@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(240, 128, 128, 0.644);
+    color: white;
+}
+
+.container {
+    background-color: lightcyan;
+    border: solid 1px black;
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+    grid-auto-flow: column;
+    gap: 20px;
+
+}
+
+.item {
+    margin: 10px 10px;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    grid-template-rows: 50px 50px;
+    border: 1px solid red;
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+    font-size: 30px;
+    color: darkcyan;
+    background-image: url('https://www.eluniversal.com.co/binrepository/1029x686/176c0/800d686/none/13704/FYRV/vega_1559625_20190428091913.jpg');
+    background-size: cover;
+}
+
+.item p {
+    background-color: aquamarine;
+    color: darkslateblue;
+    grid-column: 5;
+    grid-row: 5;
+    align-self: end;
+}
