@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+    gap: 5px;
+    border: 1px solid  darkorchid;
+    grid-template-areas: 
+    "michi michi2 michi2"
+    "michi3 michi3 michi4"
+    "michi5 michi6 michi7"
+    ;
+    place-content: center;
+    margin: 2rem 2rem;
+    padding: 2rem 2rem;
+    background: rgb(180,58,121);
+    background: linear-gradient(90deg, rgba(180,58,121,1) 0%, rgba(185,29,253,0.8701855742296919) 50%, rgba(252,69,160,1) 100%);
+    box-shadow: 14px 14px 30px 0px rgba(112,198,217,0.75);
+}
+
+
+.item {
+    border: 1px solid darkmagenta;
+    border-radius: 5px;
+    background-color: lightblue;
+}
+
+.item1 {
+    background-image: url('https://cdn-icons-png.flaticon.com/512/3468/3468377.png');
+    background-size: cover;
+    grid-area: michi;
+}
+
+.item2 {
+    background-image: url('https://dbdzm869oupei.cloudfront.net/img/sticker/preview/51761.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    grid-area: michi2;
+
+}
+
+.item3 {
+    background-image: url('https://images.vexels.com/media/users/3/291686/isolated/preview/3c27347eefcf9c18cef84d6f5ba86e9c-cute-cat-sleeping-animal.png');
+    grid-area: michi3;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.item4 {
+    background-image: url('https://c.tenor.com/k_KO1TzpKWQAAAAi/cat-kitty.gif');
+    background-size: cover;
+    grid-area: michi4;
+
+}
+
+.item5 {
+    background-image: url('https://i.pinimg.com/originals/ef/af/46/efaf4666df1925c2f4ecd49cd50433d7.png');
+    background-size: cover;
+    background-position: center;
+    grid-area: michi5;
+
+
+}
+
+.item6 {
+    background-image: url('https://i.pinimg.com/originals/cb/29/51/cb2951d12eb952150efe93298a02bbf8.png');
+    background-size: cover;
+    grid-area: michi6;
+
+}
+
+.item7 {
+    background-image: url('https://cdn.pixabay.com/photo/2020/09/20/09/54/halloween-5586567_640.png');
+    background-size: cover;
+    grid-area: michi7;
+
+}
+
+h1 {
+    text-align: center;
+    margin-top: 1rem;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    color: pink;
+}
